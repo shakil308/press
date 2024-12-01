@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* common css end  */
+
+
+.section-title {
+    text-align: center;
+}
+
+.press-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .press-title {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+.press-wrapper {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 245px;
+}
+
+.press-item {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 100px;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+
+.press-img img {
+    width: 100%;
+}

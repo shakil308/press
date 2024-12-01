@@ -1,0 +1,43 @@
+/* responsive area  */
+@media (min-width: 1401px) and (max-width: 1600px) {}
+
+
+/* XL devices ( large screens) */
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+/* Large devices (large desktops) */
+@media (min-width: 1068px) and (max-width: 1200px) {
+    .press-wrapper {
+        padding: 0 150px;
+    }
+}
+
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 1067px) {
+    .section-title .press-title {
+        font-size: 48px;
+    }
+
+    .press-wrapper {
+        padding: 0 60px;
+    }
+
+}
+
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+/* Extra Small devices (phones, portrait, up to 576px) */
+@media (max-width: 767px) {
+    .section-title .press-title {
+        font-size: 40px;
+    }
+
+    .press-wrapper {
+        padding: 0 25px;
+    }
+
+}
